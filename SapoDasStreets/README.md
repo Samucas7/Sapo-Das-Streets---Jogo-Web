@@ -1,4 +1,23 @@
 <!-- 
+_________________________________________________________________________________________________________________________________________________________________________________
+===| 
+===| COMO LIGAR Á API: 
+===|
+===| 1) NO TERMINAL (CMD, NÃO POWERSHELL) ESCREVER:
+===|
+======|> cd C:\Programacao\SapoDasStreets
+===|
+===| 2) E DEPOIS:
+===|
+=======|> node server.js
+===|
+===| PRONTO! AGORA BASTA DAR RUN(F5) AO PROJETO NO FICHEIRO: index.html
+===| ISSO VAI ABRIR O PROJETO NO NAVEGADOR, APROVEITE!
+===|_____________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
+
+RELATORIO:
+
 COMEÇEI POR PEDIR AO CHATGPT A BASE DO JOGO. 3 TIPOS DE LINES, RELVA (TILE SEGURO), RIOS (COM TRONCOS QUE SÃO NECESSÁRIOS SER USADOS PARA NÃO CAIR AO RIO) E RUAS (COM CARROS A PASSAR QUE ATROPELAM O JOGADOR). E UM JOGADOR QUE ANDA PARA A ESQUERDA, DIREITA, CIMA E BAIXO.
 
 FOI-ME DADO O PEDIDO, APENAS AS TILES, E O JOGADOR COM MOVIMENTAÇÕES. TIVE QUE PEDIR QUE GERASSE OS CARROS E TRONCOS E APLICAR UMA COLISÃO AOS DOIS E AO RIO, O CARRO MATA E O RIO TAMBÉM CASO TOCADOS.
@@ -22,4 +41,6 @@ PARA CONTRTOLAR OS SONS, METI UM SLIDER PARA AJUSTAR O VOLUME.
 ADICIONEI AS IMAGENS, MAS TIVE QUE TER A ATENÇÃO QUE A IMAGEM ESTAVA VIRADA PARAA O LOCAL DO MOVIMENTO. PARA EVITAR QUE OS CARROS ESTIVESSEM DE MARCHA ATRÁS OU O SPAO  ANDAR DE LADO PARA A FRENTE.
 
 NÃO ESTAVA SATISFEITO COM OS ASPETO VISUAL DO JOGO, PORTANTO COMEÇEI A MEXER NO HTML E NO CSS PARA UM MENU LIMPO E BONITO. ISTO FOI POSSIVELMENTE OQUE MAIS DEMOROU, ATÉ PORQUE COMO JÁ TINHA CONHECIMENTO COM HTML E CSS TENTEI NÃO USAR MUITO O CHAT E FAZER POR MIM MESMO. FIZ A DIVISÃO DO MENU EM 4 CONTAINERS, COM 3 CORES A SIMBOLIZAR OS 3 TIPOS DE LINHAS DO JOGO (RELVA, RIO, ESTRADA). FIQUEI BASTANTE SATISFEITO COM O RESULTADO.
+_________________________________________________________________________________________________________________________________________________________________________________
+
 -->
